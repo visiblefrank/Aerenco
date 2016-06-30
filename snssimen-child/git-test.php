@@ -5,6 +5,6 @@
 		<title><<**SelectionInsertionPlaceholder**>></title>
 	</head>
 	<body>
-		<p>test 1</p>
+		<p>test 2</p>
 	</body>
 </html>
