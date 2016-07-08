@@ -11,3 +11,53 @@ Text-domain: snssimen
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 */
+
+
+/*
+======================================================================= GENERAL
+*/
+
+centered-col{
+	text-align: center;
+}
+
+/*
+======================================================================= HOME
+*/
+
+.logo-title{
+	font-size: 5rem;
+	margin: 3rem 0 0 3rem;
+	color: #fff;
+	
+	}
+
+#hero-bg{
+	background: #0089e0 url('img/tel-pole-white.svg') no-repeat;
+	background:  url('img/tel-pole-white.svg') no-repeat, linear-gradient(to bottom,  #0068aa 0%,#0098fa 100%);
+	background:  url('img/tel-pole-white.svg') no-repeat, linear-gradient(to right,  #1e5799 0%,#cf0b7b 0%,#cf0b7b 34%,#2989d8 34%,#0089e0 34%,#0089e0 66%,#7fab16 66%,#7fab16 100%);
+	background:  url('img/tel-pole-white.svg') no-repeat, linear-gradient(to bottom,  #1e5799 0%,#cf0b7b 0%,#cf0b7b 34%,#2989d8 34%,#0089e0 34%,#0089e0 66%,#7fab16 66%,#7fab16 100%);
+	background:  url('img/birds.svg') no-repeat, linear-gradient(135deg,  #1e5799 0%,#cf0b7b 0%,#cf0b7b 34%,#2989d8 34%,#0089e0 34%,#0089e0 66%,#7fab16 66%,#7fab16 100%);
+	  -webkit-background-size: contain;
+	  -moz-background-size: contain;
+	  -o-background-size: contain;
+	  background-size: contain;
+	  background-position: left 0px bottom -1px;
+	  min-height: 400px;
+}
+
+
+
+.hero-tag{
+	margin: 3rem 0 0 3rem;
+    color: #fff;
+    line-height: 1.4em;
+    letter-spacing: 1px;
+    font-size: 3.25rem;
+}
+
+#home-intro{
+	border: 1px solid #eaeaea;
+}
+
+
