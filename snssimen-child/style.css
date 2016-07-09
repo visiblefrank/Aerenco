@@ -55,9 +55,25 @@ centered-col{
     letter-spacing: 1px;
     font-size: 3.25rem;
 }
+/*
 
 #home-intro{
 	border: 1px solid #eaeaea;
+}
+*/
+
+/*
+.woocommerce.columns-2 ul.products li.product{
+	text-align: center;
+}
+*/
+
+.woocommerce.columns-2 ul.products li.product{
+	width: 50%;
+}
+
+.prdlist-content{
+	padding-top: 0;
 }
 
 
