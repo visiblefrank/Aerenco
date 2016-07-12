@@ -21,6 +21,10 @@ centered-col{
 	text-align: center;
 }
 
+img.lazy{
+	width: auto !important;
+}
+
 /*
 ======================================================================= HOME
 */
@@ -33,17 +37,20 @@ centered-col{
 	}
 
 #hero-bg{
+/*
 	background: #0089e0 url('img/tel-pole-white.svg') no-repeat;
 	background:  url('img/tel-pole-white.svg') no-repeat, linear-gradient(to bottom,  #0068aa 0%,#0098fa 100%);
 	background:  url('img/tel-pole-white.svg') no-repeat, linear-gradient(to right,  #1e5799 0%,#cf0b7b 0%,#cf0b7b 34%,#2989d8 34%,#0089e0 34%,#0089e0 66%,#7fab16 66%,#7fab16 100%);
-	background:  url('img/tel-pole-white.svg') no-repeat, linear-gradient(to bottom,  #1e5799 0%,#cf0b7b 0%,#cf0b7b 34%,#2989d8 34%,#0089e0 34%,#0089e0 66%,#7fab16 66%,#7fab16 100%);
-	background:  url('img/birds.svg') no-repeat, linear-gradient(135deg,  #1e5799 0%,#cf0b7b 0%,#cf0b7b 34%,#2989d8 34%,#0089e0 34%,#0089e0 66%,#7fab16 66%,#7fab16 100%);
+	background:  url('img/tel-pole-white.svg') no-repeat, linear-gradient(to bottom,  #1e5799 0%,#cf0b7b 0%,#cf0b7b 34%,#2989d8 34%,#0089e0 34%,#0089e0 66%,#7fab16 66%,#7fab16 100%);background:  url('img/birds.svg') no-repeat, linear-gradient(135deg,  #1e5799 0%,#cf0b7b 0%,#cf0b7b 34%,#2989d8 34%,#0089e0 34%,#0089e0 66%,#7fab16 66%,#7fab16 100%);
+	background:  url('img/dashed-lines.svg') no-repeat, linear-gradient(135deg,  #1e5799 0%,#cf0b7b 0%,#cf0b7b 34%,#2989d8 34%,#0089e0 34%,#0089e0 66%,#7fab16 66%,#7fab16 100%);
 	  -webkit-background-size: contain;
 	  -moz-background-size: contain;
 	  -o-background-size: contain;
 	  background-size: contain;
-	  background-position: left 0px bottom -1px;
+*/
+	  background-position: right 0px bottom;
 	  min-height: 400px;
+	  background: #414243 url('img/home-intro-head.svg');
 }
 
 
@@ -55,12 +62,21 @@ centered-col{
     letter-spacing: 1px;
     font-size: 3.25rem;
 }
-/*
 
-#home-intro{
-	border: 1px solid #eaeaea;
+#sns_content .wpb_content_element.head-intro-txt{
+	color: #fff;
+	padding: 2em;
+	margin-bottom: 0;
 }
-*/
+
+.head-intro-txt a{
+	color: #fff;
+}
+
+.home-intro-head{
+	text-align: right;
+	padding: 4rem 1rem 2rem;
+}
 
 /*
 .woocommerce.columns-2 ul.products li.product{
@@ -74,6 +90,10 @@ centered-col{
 
 .prdlist-content{
 	padding-top: 0;
+}
+
+#sns_content .wpb_content_element.home-intro-txt{
+	margin-bottom: 0;
 }
 
 

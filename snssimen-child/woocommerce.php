@@ -36,6 +36,7 @@ if( is_product() ){
 		<div class="row sns-content sns-woocommerce-page">
 			<?php if ($hasL == 1) :?>
 			<!-- left sidebar -->
+<!--
 			<div class="<?php echo esc_attr($lclass); ?> sns-left">
 			    <?php 
 				if( snssimen_metabox('snssimen_leftsidebar')!= '' && is_active_sidebar( snssimen_metabox('snssimen_leftsidebar') ) ){
@@ -45,6 +46,7 @@ if( is_product() ){
 			    }
 			    ?>
 			</div>
+-->
 		<?php endif; ?>
 			<!-- Main content -->
 			<div class="<?php echo esc_attr($mclass); ?> sns-main">
