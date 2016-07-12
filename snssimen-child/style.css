@@ -29,14 +29,23 @@ img.lazy{
 ======================================================================= HOME
 */
 
-.logo-title{
-	font-size: 5rem;
-	margin: 3rem 0 0 3rem;
-	color: #fff;
-	
-	}
 
 #hero-bg{
+	background-image: url('img/home-intro-head.svg');
+	background-repeat: no-repeat;
+	background-position: right 7% bottom 10px;
+	background-size: 60%;
+}
+
+/*
+#hero-bg h6, #hero-bg p{
+	background: #414243;
+	display: inline-block;
+}
+*/
+
+
+#hero-inner{
 /*
 	background: #0089e0 url('img/tel-pole-white.svg') no-repeat;
 	background:  url('img/tel-pole-white.svg') no-repeat, linear-gradient(to bottom,  #0068aa 0%,#0098fa 100%);
@@ -48,12 +57,17 @@ img.lazy{
 	  -o-background-size: contain;
 	  background-size: contain;
 */
-	  background-position: right 0px bottom;
-	  min-height: 400px;
-	  background: #414243 url('img/home-intro-head.svg');
+	
+	
+	  
+	  
 }
-
-
+.logo-title{
+	font-size: 5rem;
+	margin: 3rem 0 0 3rem;
+	color: #fff;
+	
+}
 
 .hero-tag{
 	margin: 3rem 0 0 3rem;
@@ -75,7 +89,10 @@ img.lazy{
 
 .home-intro-head{
 	text-align: right;
-	padding: 4rem 1rem 2rem;
+	padding: 4rem 0rem 2rem;
+	background:  url('img/dashed-lines.svg') no-repeat;
+	min-height: 223px;
+    background-position: right 0 bottom -1px;
 }
 
 /*
